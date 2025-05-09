@@ -7,7 +7,8 @@ import { Product } from './product.model';
   providedIn: 'root'
 })
 export class ProductService {
-  private apiUrl = 'http://localhost:8000/api/products';
+  private apiUrl = 'https://aplicaci-n-web-con-base-de-datosb-production.up.railway.app/api/products';
+  //private apiUrl = 'http://localhost:8000/api/products';
 
   constructor(private http: HttpClient) { }
 
